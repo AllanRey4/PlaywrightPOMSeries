@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9c4d1e-e9e1-4284-9f59-20394956c867" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/TestExecutionReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/listeners/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/listeners/ExtentReportListener.java" afterDir="false" />
+    <list default="true" id="fb9c4d1e-e9e1-4284-9f59-20394956c867" name="Changes" comment="update pom">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +67,11 @@
       <recent name="G:\autotests\PlaywrightPOMSeries\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\autotests\PlaywrightPOMSeries" />
       <recent name="G:\autotests\PlaywrightPOMSeries\src\test" />
       <recent name="G:\autotests\PlaywrightPOMSeries\src" />
       <recent name="G:\autotests\PlaywrightPOMSeries\src\test\resources" />
       <recent name="G:\autotests\PlaywrightPOMSeries\src\test\java\resources" />
-      <recent name="G:\autotests\PlaywrightPOMSeries\src\test\java" />
     </key>
   </component>
   <component name="RunManager">
@@ -208,8 +196,65 @@
       <workItem from="1680519208614" duration="4943000" />
       <workItem from="1680602364458" duration="2078000" />
       <workItem from="1680690533861" duration="4863000" />
-      <workItem from="1680704541510" duration="5881000" />
+      <workItem from="1680704541510" duration="13161000" />
     </task>
+    <task id="LOCAL-00001" summary="update files">
+      <created>1680711780398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680711780398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add jenkinsfile">
+      <created>1680712807989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680712807989</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update jenkinsfile">
+      <created>1680715428339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680715428339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update testng">
+      <created>1680716533345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680716533345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update pom">
+      <created>1680716707694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680716707694</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update pom">
+      <created>1680717240556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680717240556</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update pom">
+      <created>1680719417727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680719417727</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update pom">
+      <created>1680719998492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680719998492</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +282,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update files" />
+    <MESSAGE value="add jenkinsfile" />
+    <MESSAGE value="update jenkinsfile" />
+    <MESSAGE value="update testng" />
+    <MESSAGE value="update pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
