@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Open Cart Test Regression PW Suite" parallel="tests" thread-count="10" verbose="4" data-provider-thread-count="10">
+<suite name="Open Cart Test Regression PW Suite" parallel="tests" thread-count="5" verbose="4">
 
 	<listeners>
 		<listener class-name="com.qa.opencart.listeners.ExtentReportListener" />
 	</listeners>
 
 
-	<test name="Open Cart Home Page Test_chromium">
-		<parameter name="browser" value="chromium"/>
+	<test name="Open Cart Home Page Test_firefox">
+		<parameter name="browser" value="firefox"/>
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
 	</test>
 
-	<test name="Open Cart Login Page Test_chromium">
-		<parameter name="browser" value="chromium"/>
+	<test name="Open Cart Login Page Test_firefox">
+		<parameter name="browser" value="firefox"/>
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
