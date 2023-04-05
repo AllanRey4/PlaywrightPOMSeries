@@ -7,7 +7,6 @@ import java.nio.file.Paths;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.jetbrains.annotations.NotNull;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -70,7 +69,7 @@ public class ExtentReportListener implements ITestListener {
 	}
 
 	@Override
-	public synchronized void onTestStart(@NotNull ITestResult result) {
+	public synchronized void onTestStart(ITestResult result) {
 		String methodName = result.getMethod().getMethodName();
 		String qualifiedName = result.getMethod().getQualifiedName();
 		int last = qualifiedName.lastIndexOf(".");
@@ -91,7 +90,7 @@ public class ExtentReportListener implements ITestListener {
 		test.get().getModel().setStartTime(getTime(result.getStartMillis()));
 	}
 
-	public synchronized void onTestSuccess(@NotNull ITestResult result) {
+	public synchronized void onTestSuccess(ITestResult result) {
 		System.out.println((result.getMethod().getMethodName() + " passed!"));
 		test.get().pass("Test passed");
 		//test.get().pass(result.getThrowable(), MediaEntityBuilder
@@ -99,25 +98,25 @@ public class ExtentReportListener implements ITestListener {
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}
 
-	public synchronized void onTestFailure(@NotNull ITestResult result) {
+	public synchronized void onTestFailure(ITestResult result) {
 		System.out.println((result.getMethod().getMethodName() + " failed!"));
 		test.get().fail(result.getThrowable(), MediaEntityBuilder
 							.createScreenCaptureFromBase64String(takeScreenshot(),result.getMethod().getMethodName()).build());
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}
 
-	public synchronized void onTestSkipped(@NotNull ITestResult result) {
+	public synchronized void onTestSkipped(ITestResult result) {
 		System.out.println((result.getMethod().getMethodName() + " skipped!"));
 		test.get().skip(result.getThrowable(), MediaEntityBuilder
 								.createScreenCaptureFromBase64String(takeScreenshot(), result.getMethod().getMethodName()).build());
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}
 
-	public synchronized void onTestFailedButWithinSuccessPercentage(@org.jetbrains.annotations.NotNull ITestResult result) {
+	public synchronized void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		System.out.println(("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName()));
 	}
 
-	private @NotNull Date getTime(long millis) {
+	private Date getTime(long millis) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
