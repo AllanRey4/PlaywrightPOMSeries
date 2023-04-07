@@ -13,8 +13,7 @@ pipeline
             steps
             {
                  git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                 if(isUnix() --> sh "mvn -Dmaven.test.failure.ignore=true clean package")
-                 else (bat "mvn -Dmaven.test.failure.ignore=true clean package")  //'bat' -> 'sh' if Unix system
+                 bat "mvn -Dmaven.test.failure.ignore=true clean package"  //'bat' -> 'sh' if Unix system
             }
             post 
             {
