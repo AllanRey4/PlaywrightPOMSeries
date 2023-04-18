@@ -19,7 +19,7 @@ pipeline
             {
                 success
                 {
-                    junit '**/target/surefire-reports/TEST-*.xml'
+                    junit '**/target/surefire-reports/TEST-TestSuite.xml'
 
                     archiveArtifacts 'target/*.jar'
                 }
