@@ -13,7 +13,7 @@ pipeline
             steps
             {
                  git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true"  //'bat' -> 'sh' if Unix system
+                 sh "mvn -Dmaven.test.failure.ignore=true test"  //'bat' -> 'sh' if Unix system
             }
             post 
             {
