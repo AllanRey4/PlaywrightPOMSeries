@@ -21,17 +21,17 @@
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
-<!--	<test name="Open Cart Home Page Test_edge">
+	<test name="Open Cart Home Page Test_edge">
 	  <parameter name="browser" value="edge" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
 	</test>
-	<test name="Open Cart Login Page Test_edge">
-	  <parameter name="browser" value="edge" />
-		<classes>
-			<class name="com.qa.opencart.tests.LoginPageTest" />
-		</classes>
-	</test>-->
+	<!--	<test name="Open Cart Login Page Test_edge">
+          <parameter name="browser" value="edge" />
+            <classes>
+                <class name="com.qa.opencart.tests.LoginPageTest" />
+            </classes>
+        </test>-->
 
 </suite>
