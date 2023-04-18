@@ -13,7 +13,7 @@ pipeline
             steps
             {
                  git 'https://github.com/AllanRey4/simple-maven-project-with-tests-master.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true test"
+                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post 
             {
