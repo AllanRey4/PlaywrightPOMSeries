@@ -21,7 +21,7 @@ public class BaseTest {
 	protected LoginPage loginPage;
 
 	@Parameters({"browser"})
-	@BeforeTest
+	@BeforeClass
 	public void setup(String browserName) {
 		pf = new PlaywrightFactory();
 
@@ -34,7 +34,6 @@ public class BaseTest {
 		page = pf.initBrowser(prop);
 		homePage = new HomePage(page);
 	}
-
 
 	@AfterClass
 	public void tearDown() {

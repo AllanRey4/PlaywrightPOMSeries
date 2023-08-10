@@ -85,11 +85,8 @@ public class PlaywrightFactory {
 //		
 //		page.navigate(prop.getProperty("url").trim());
 		getPage().navigate(prop.getProperty("url").trim());
-		
-		
-		
+
 		return getPage();
-		
 	}
 	
 	
@@ -107,7 +104,6 @@ public class PlaywrightFactory {
 		}
 		
 		return prop;
-		
 	}
 	
 	/*

@@ -11,7 +11,6 @@ import com.qa.opencart.constants.AppConstants;
 
 public class HomePageTest extends BaseTest{
 
-
 	@Test
 	public void homePageTitleTest() {
 		String actualTitle = homePage.getHomePageTitle();
@@ -35,7 +34,6 @@ public class HomePageTest extends BaseTest{
 
 	@Test(dataProvider = "getProductData")
 	public void searchTest(String productName) throws InterruptedException {
-		Thread.sleep(5000);
 		String actualSearchHeader= homePage.doSearch(productName);
 		Assert.assertEquals(actualSearchHeader, "Search - " + productName);
 	}

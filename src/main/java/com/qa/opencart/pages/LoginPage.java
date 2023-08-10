@@ -4,7 +4,6 @@ import com.microsoft.playwright.Page;
 
 public class LoginPage {
 
-	
 	private final Page page;
 
 	//1.String Locators - OR
@@ -19,8 +18,7 @@ public class LoginPage {
 
 		this.page = page;
 	}
-	
-	
+
 	//3.Page actions/methods
 	public String getLoginPageTitle() {
 
@@ -44,6 +42,5 @@ public class LoginPage {
 			System.out.println("user is not logged in successfully....");
 			return false;
 		}
-		
 	}
 }

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9c4d1e-e9e1-4284-9f59-20394956c867" name="Changes" comment="update Jenkinsfile">
+    <list default="true" id="fb9c4d1e-e9e1-4284-9f59-20394956c867" name="Changes" comment="update testng">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/factory/PlaywrightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/factory/PlaywrightFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/tests/LoginPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +30,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.7.0/testng-7.7.0-sources.jar!/org/testng/SuiteRunnerWorker.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2Nh053xpjo8YyGG185cMNfi5mxl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,7 +50,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/autotests/PlaywrightPOMSeries&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/autotests/RCVDemo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -201,7 +201,10 @@
       <workItem from="1680809174863" duration="622000" />
       <workItem from="1680876381904" duration="3858000" />
       <workItem from="1681326439331" duration="3347000" />
-      <workItem from="1681809487771" duration="1018000" />
+      <workItem from="1681809487771" duration="8141000" />
+      <workItem from="1683112316709" duration="89000" />
+      <workItem from="1686206627331" duration="2160000" />
+      <workItem from="1691638816076" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1680711780398</created>
@@ -357,7 +360,119 @@
       <option name="project" value="LOCAL" />
       <updated>1681810002416</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update pom">
+      <created>1681810554335</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681810554335</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update pom">
+      <created>1681810665859</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681810665859</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update pom">
+      <created>1681810758244</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681810758244</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update pom">
+      <created>1681810995221</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681810995221</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update pom">
+      <created>1681818724256</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681818724256</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update Jenkinsfile">
+      <created>1681819609093</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681819609093</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update Jenkinsfile">
+      <created>1681819676343</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681819676343</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update Jenkinsfile">
+      <created>1681819706030</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681819706030</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update Jenkinsfile">
+      <created>1681819770930</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681819770930</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update Jenkinsfile">
+      <created>1681819934053</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681819934053</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update Jenkinsfile">
+      <created>1681820579281</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681820579281</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update Jenkinsfile">
+      <created>1681820646489</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681820646489</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update pom">
+      <created>1681820728889</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681820728889</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update testng">
+      <created>1681848594042</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848594042</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update testng">
+      <created>1681848711059</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848711059</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update testng">
+      <created>1681849339202</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681849339202</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +489,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -390,10 +505,10 @@
     <MESSAGE value="update files" />
     <MESSAGE value="add jenkinsfile" />
     <MESSAGE value="update jenkinsfile" />
-    <MESSAGE value="update testng" />
-    <MESSAGE value="update pom" />
     <MESSAGE value="update Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Jenkinsfile" />
+    <MESSAGE value="update pom" />
+    <MESSAGE value="update testng" />
+    <option name="LAST_COMMIT_MESSAGE" value="update testng" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
